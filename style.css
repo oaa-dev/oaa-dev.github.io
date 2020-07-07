@@ -128,6 +128,10 @@ nav {
     animation: pulse 3s;
 }
 
+.profile-image img {
+    border-radius: 50%;
+}
+
 #particles-js canvas {
     display: block;
     -webkit-transform: scale(1);
