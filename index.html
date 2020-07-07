@@ -1,47 +1,44 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Jost&display=swap" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div id="particles-js"></div>
-        <div class="container-fluid">
-            <div class="row" id="home">
-                <nav>
-                    <div class="logo">
-                        <h4>Portfolio</h4>
-                    </div>
-                    <ul class="nav-links">
-                        <li>
-                            <a href="#home" target="_self">Home</a>
-                        </li>
-                        <li>
-                            <a href="#projects" target="_self">Projects</a>
-                        </li>
-                        <li>
-                            <a href="#skills" target="_self">Skills</a>
-                        </li>
-                        <li>
-                            <a href="#contact" target="_self">Hire Me!</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div id="screen">
-                    <div class="profile">
-                        <div class="img animated bounceInDown slow">
-                            <img src="img/no-img.jpg"/>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OAA DEVELOPMENT - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Jost&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <nav>
+                <div id="logo">
+                    <h4>MY PORTFOLIO</h4>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Skills</a></li>
+                    <li><a href="">Hire Me!</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <!-- MAIN VIEW -->
+                <div class="row">
+                    <div class="col-md-12 profile">
+                        <div class="profile-image animated bounceInDown slow">
+                            <img src="img/alien.jpg" width="50%"/>
                         </div>
-                        <div class="animated bounceIn delay-2s introduction">
-                            <h2>Hello, I'm Christian</h2>
-                            <p>I am a back-end Web Developer form Cabuyao, Laguna</p>
+                        <div class="profile-info animated bounceIn delay-2s">
+                            <h2>Hello, I'm <span class="name">Christian</span></h2>
+                            <p>I am a passionate Web Developer form Cabuyao, Laguna</p>
                             <div class="icons">
                                 <ul class="icon-links introduction">
                                     <li><a href="https://www.messenger.com/t/100008499725280" target="_blank"><i class="fa fa-facebook" ></i></a></li>
@@ -55,263 +52,172 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="row projects" id="projects">
-                <div class="col-md-10 offset-md-1">
-                    <h3 class="text-center">PROJECTS</h3>
-                    <div class="row">
-                        <div class="col-md-6 text-center p-3">
-                            <img src="img/ss2.png" width="100%">
-                        </div>
-                        <div class="col-md-6 p-5">
-                            <h3>POS Management System</h3>
-                            <p class="text-justify">This project build using PHP and optimized using Codeigniter Framework, Ajax, Bootstrap, etc. This project can create user account with unique access from each modules, monitor sales reports, inventory status,  reconsile products, actvity logs of every user, etc.  </p>
-                            <button class="btn btn-sm btn-success">View More</button>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 text-center p-3">
-                            <img src="img/ss3.png" width="100%">
-                        </div>
-                        <div class="col-md-6 p-5">
-                            <h3>IskoCab Management System</h3>
-                            <p class="text-justify">This project build using Laravel Framework on our On-the-job Training days. This project focus on Scholars of Cabuyao City, Laguna and also to help Cabuyao Youth Development Office Affairs Office (CYDAO). Process Scholarship applications Online, Monitor scholar academic progess, etc. </p>
-                            <button class="btn btn-sm btn-success">View More</button>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 text-center p-3">
-                            <img src="img/ss.png" width="100%">
-                        </div>
-                        <div class="col-md-6 p-5">
-                            <h3>My Portfolio</h3>
-                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                            <button class="btn btn-sm btn-success">View More</button>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 text-center p-3">
-                            <img src="img/ss4.png" width="100%">
-                        </div>
-                        <div class="col-md-6 p-5">
-                            <h3>Asclepius v1</h3>
-                            <p class="text-justify">Asclepius v1 came from the god of medicine, Asclepius. This project Laboratory Clinic Management System is build when i was 3rd year college student (project), it can Manage Patients, Doctors, Histories, Scheduling and queuing of patients etc. Construct using C# programming language. </p>
-                            <button class="btn btn-sm btn-success">View More</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row skills" style="margin-top: 80px" id="skills">
-                <div class="col-md-12">
-                    <h3 class="text-center">LANGUAGES</h3>
-                    <div data-aos="zoom-in" data-aos-duration="1500">
-                        <div class="row justify-content-center m-3">
-                            <img src="img/javascript.svg" width="80" style="margin:10px">
-                            <img src="img/css3.svg" width="80" style="margin:10px">
-                            <img src="img/c--4.svg" width="80" style="margin:10px">
-                            <img src="img/php.svg" width="80" style="margin:10px">
-                            <img src="img/jquery.svg" width="80" style="margin:10px">
-                            <img src="img/mysql.svg" width="80" style="margin:10px">
-                            <img src="img/html.svg" width="80" style="margin:10px">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12" style="margin-top: 30px">
-                    <h3 class="text-center">FRAMEWORKS</h3>
-                    <div data-aos="zoom-in" data-aos-duration="1500">
-                        <div class="row justify-content-center m-3">
-                            <img src="img/bootstrap.svg" width="80" style="margin:10px">
-                            <img src="img/codeigniter.svg" width="80" style="margin:10px">
-                            <img src="img/laravel.svg" width="80" style="margin:10px">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12" style="margin-top: 30px">
-                    <h3 class="text-center">TECHNOLOGIES</h3>
-                    <div data-aos="zoom-in" data-aos-duration="1500">
-                        <div class="row justify-content-center m-3">
-                            <img src="img/vscode.svg" width="80" style="margin:10px">
-                            <img src="img/xampp.svg" width="80" style="margin:10px">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row skills" >
-            </div>
-
-            <div class="row skills" style="margin-top: 80px">
-            </div>
-
-            <div class="row contact" style="margin-top: 80px" id="contact">
-                <div class="col-md-10 offset-md-1">
-                    <div class="row">
-                        <div class="col-md-6 text-center">
-                            <h3 class="text-center">GET IN TOUCH</h3>
-                            <div class="text-left">
-                                <ul class="list-group list-group-flush" style="list-style: none;"> 
-                                    <li class="list-group-item"><i class="fa fa-home m-2" style="font-size: 20px;"></i>Banay Banay City of Cabuyao, Laguna</li>
-                                    <li class="list-group-item"><i class="fa fa-phone m-2" style="font-size: 20px;"></i>0909 - 234 - 0613</li>
-                                    <li class="list-group-item"><i class="fa fa-envelope m-2" style="font-size: 20px;"></i>johnoraa24@gmail.com</li>
-                                </ul>
+                
+                <!-- ABOUT -->
+                <div class="row division" data-aos="fade-up" data-aos-duration="2500" >
+                    <div class="col-md-10 offset-md-1 about">
+                        <h3 class="text-center title">ABOUT</h3>
+                        <p class="text-center">I am a diligent and highly motivated individual. I exhibit flexibility and able to learn quickly with a strong commitment to succeed in my career. I am optimistic, have the ability to communicate in an appropriate manner.</p>
+                        <div class="row">
+                            <div class="col-md-4 about-img text-center">
+                                <img src="img/alien.jpg" width="100%" height="100%">
+                            </div>
+                            <div class="col-md-8 about-info">
+                                <h4 style="font-weight:bold;">Web Developer & Programmer</h4>
+                                <p class="text-justify" style="font-style: italic;">Good day, my name is John Christian P. Oraa, graduate student from Pamantasan ng Cabuyao with the Degree of Bachelor of Science on Information Technology. </p>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6">
+                                        <ul>
+                                            <li><b>Birthday: </b>26 June 1999</li>
+                                            <li><b>Phone: </b> 0909 2340 613</li>
+                                            <li><b>City: </b> Cabuyao City, Laguna</li>
+                                            <li><b>Website: </b> www.facebook.com</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <ul>
+                                            <li><b>Age: </b>21</li>
+                                            <li><b>Degree: </b> Bachelor</li>
+                                            <li><b>Email: </b> oaadevelopment.acc@gmail.com</li>
+                                            <li><b>Github: </b> www.github.com</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
                         </div>
-                        <div class="col-md-6 text-center">
-                            <div id="map" style="height:100%"></div>
+                    </div>
+                </div>
+
+                <!-- PROJECTS -->
+                <div class="row division" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="col-md-10 offset-md-1 projects">
+                        <h3 class="text-center title">PROJECTS</h3>
+                        <div class="row project">
+                            <div class="col-md-6 project-img">
+                                <img src="img/ss2.png" width="100%">
+                            </div>
+                            <div class="col-md-6 project-info">
+                                <h3>POS Management System</h3>
+                                <p class="text-justify">This project build using PHP and optimized using Codeigniter Framework, Ajax, Bootstrap, etc. This project can create user account with unique access from each modules, monitor sales reports, inventory status,  reconsile products, actvity logs of every user, etc.  </p>
+                                <button class="btn btn-sm btn-success">View More</button>
+                            </div>
+                        </div>
+                        
+                        <div class="row project">
+                            <div class="col-md-6 project-img">
+                                <img src="img/ss3.png" width="100%">
+                            </div>
+                            <div class="col-md-6 project-info">
+                                <h3>IskoCab Management System</h3>
+                                <p class="text-justify">This project build using Laravel Framework on our On-the-job Training days. This project focus on Scholars of Cabuyao City, Laguna and also to help Cabuyao Youth Development Office Affairs Office (CYDAO). Process Scholarship applications Online, Monitor scholar academic progess, etc. </p>
+                                <button class="btn btn-sm btn-success">View More</button>
+                            </div>
+                        </div>
+                        
+                        <div class="row project">
+                            <div class="col-md-6 project-img">
+                                <img src="img/ss.png" width="100%">
+                            </div>
+                            <div class="col-md-6 project-info">
+                                <h3>My Portfolio</h3>
+                                <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <button class="btn btn-sm btn-success">View More</button>
+                            </div>
+                        </div>
+                        
+                        <div class="row project">
+                            <div class="col-md-6 project-img">
+                                <img src="img/ss4.png" width="100%">
+                            </div>
+                            <div class="col-md-6 project-info">
+                                <h3>Asclepius v1</h3>
+                                <p class="text-justify">Asclepius v1 name came from the god of medicine, Asclepius. This project Laboratory Clinic Management System is build when i was 3rd year college student (project), it can Manage Patients, Doctors, Histories, Scheduling and queuing of patients etc. Construct using C# programming language. </p>
+                                <button class="btn btn-sm btn-success">View More</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="row footer" style="margin-top: 80px">
-                <h5>&copy; Thanks for visiting this page.</h5>   
-            </div>
-            
-            <div id="fakeloader-overlay" class="visible incoming">
-                <div class="loader-wrapper-outer">
-                    <div class="loader-wrapper-inner">
-                        <div class="loader"></div>
+                
+                <!-- SKILLS -->
+                <div class="row division" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="col-md-10 offset-md-1 skills">
+                        <h3 class="text-center title">SKILLS</h3>
+                        <p class="text-center">In the last past years, i start to study some of programming languages, framework, and technologies that i think can help me to build up my carreer. </p>
+                        <div class="row col-md-8 offset-md-2 project justify-content-center">
+                            <img src="img/javascript.svg" width="70" style="margin:10px">
+                            <img src="img/css3.svg" width="70" style="margin:10px">
+                            <img src="img/c--4.svg" width="70" style="margin:10px">
+                            <img src="img/php.svg" width="70" style="margin:10px">
+                            <img src="img/jquery.svg" width="70" style="margin:10px">
+                            <img src="img/mysql.svg" width="70" style="margin:10px">
+                            <img src="img/html.svg" width="70" style="margin:10px">
+                            <img src="img/bootstrap.svg" width="70" style="margin:10px">
+                            <img src="img/codeigniter.svg" width="70" style="margin:10px">
+                            <img src="img/laravel.svg" width="70" style="margin:10px">
+                            <img src="img/vscode.svg" width="70" style="margin:10px">
+                            <img src="img/xampp.svg" width="70" style="margin:10px">
+                        </div>
                     </div>
+                </div>
+
+                
+                <!-- CONTACT -->
+                <div class="row division" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="col-md-10 offset-md-1 contact">
+                        <h3 class="text-center title">CONTACT</h3>
+                        <p class="text-center">If you have any question, you can contact me on this number or through my email address for further information. I hope to work with you in the future. :)</p>
+                        <div class="row" style="height: 200px;">
+                            <div class="col-md-12">
+                                <div id="map" style="height:100%"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 p-4">    
+                                <div class="text-left">
+                                    <ul class="list-group list-group-flush" style="list-style: none;"> 
+                                        <li class="list-group-item">
+                                            <i class="fa fa-home m-2" style="font-size: 40px;"></i>
+                                            <span style="font-size: 18px;"><b>Location:</b> <br>Banay Banay City of Cabuyao, Laguna</span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <i class="fa fa-phone m-2" style="font-size: 40px;"></i>
+                                            <span style="font-size: 18px;"><b>Contact:</b> <br>0909 - 234 - 0613</span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            
+                                            <i class="fa fa-envelope m-2" style="font-size: 40px;"></i>
+                                            <span style="font-size: 18px;"><b>Email:</b> <br>johnoraa24@gmail.com</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-center p-5">
+                                <h3>Download my Resume</h3>
+                                <p>You can download and check my resume here for more information. I hope to work with you in the future. Thank you!</p>
+                                <a href="./assets/my-resume.docx" class="btn btn-primary btn-lg" download="my-resume"><i class="fa fa-download"></i> DOWNLOAD CV</a>
+                            </div>
+                        </div>
+                    </div>
+                
                 </div>
             </div>
         </div>
-        
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
-        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            var map = L.map('map').setView([14.2471, 121.1367], 13);
-
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            }).addTo(map);
-
-            //transition
-            AOS.init();
-
-            //particles
-            particlesJS("particles-js", {
-                "particles": {
-                    "number": {
-                        "value": 120,
-                        "density": {
-                            "enable": true,
-                            "value_area": 800
-                        }
-                    },
-                    "color": {
-                        "value": "#A9A9A9"
-                    },
-                    "shape": {
-                        "type": "circle",
-                        "stroke": {
-                            "width": 0,
-                            "color": "#000000"
-                        },
-                        "polygon": {
-                            "nb_sides": 5
-                        }
-                    },
-                    "opacity": {
-                        "value": 0.5,
-                        "random": false,
-                        "anim": {
-                            "enable": false,
-                            "speed": 1,
-                            "opacity_min": 0.1,
-                            "sync": false
-                        }
-                    },
-                    "size": {
-                        "value": 3,
-                        "random": true,
-                        "anim": {
-                            "enable": false,
-                            "speed": 40,
-                            "size_min": 0.1,
-                            "sync": false
-                        }
-                    },
-                    "line_linked": {
-                        "enable": true,
-                        "distance": 150,
-                        "color": "#A9A9A9",
-                        "opacity": 0.4,
-                        "width": 1.5
-                    },
-                    "move": {
-                        "enable": true,
-                        "speed": 2,
-                        "direction": "none",
-                        "random": false,
-                        "straight": false,
-                        "out_mode": "out",
-                        "bounce": false,
-                        "attract": {
-                            "enable": false,
-                            "rotateX": 600,
-                            "rotateY": 1200
-                        }
-                    }
-                },
-                "interactivity": {
-                    "detect_on": "window",
-                    "events": {
-                    "onhover": {
-                        "enable": true,
-                        "mode": "grab"
-                    },
-                    "onclick": {
-                        "enable": true,
-                        "mode": "repulse"
-                    },
-                    "resize": true
-                    },
-                    "modes": {
-                        "grab": {
-                            "distance": 140,
-                            "line_linked": {
-                                "opacity": 1
-                            }
-                        },
-                        "bubble": {
-                            "distance": 400,
-                            "size": 40,
-                            "duration": 2,
-                            "opacity": 8,
-                            "speed": 3
-                        },
-                        "repulse": {
-                            "distance": 200,
-                            "duration": 0.4
-                        },
-                        "push": {
-                            "particles_nb": 1
-                        },
-                        "remove": {
-                            "particles_nb": 2
-                        }
-                    }
-                },
-                "retina_detect": true
-            });
-
-
-            /* promise loader */
-            const loader = () => {
-                return new Promise((resolve, reject)=>{
-                    setTimeout(() => {
-                        $("#fakeloader-overlay").addClass('hidden')
-                    }, 5000);
-                });
-            }
-
-            loader();
-      </script>
-    </body>
+        <div class="row">
+            <div class="footer col-md-12">
+                <h5>&copy; Thanks for visiting this page.</h5>   
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./app.js"></script>
+</body>
 </html>
