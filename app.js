@@ -115,14 +115,5 @@ particlesJS("particles-js", {
     "retina_detect": true
 });
 
-/* type script */
-// setTimeout(() => {
-//     var typed = new Typed('.profile-info .name', {
-//         strings: ["Christian"],
-//         typeSpeed: 30
-//     });
-// }, 3000);
-
 /* transition */
-
 AOS.init();
