@@ -8,6 +8,7 @@
 html{
     height: 100%;
     opacity: 0.9;
+    scroll-behavior: smooth
 }
 
 .container-fluid {
