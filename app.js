@@ -140,9 +140,17 @@ $(document).ready(function(){
         getResponse(message).then(resolve => {
             const {data, analysis} = resolve;
             setTimeout(() => {
-                $('.conversations').append(`<div class="bot popout"><img src="./img/alien.jpg" alt=""><p>${data.Answer}</p></div>`);
+                // console.log(resolve)
+                if(analysis >= 0.7){
+                    $('.conversations').append(`<div class="bot popout"><img src="./img/alien.jpg" alt=""><p>${data.Answer}</p></div>`);
+                }if(analysis >= 0.5 && analysis < 0.7){
+                    $('.conversations').append(`<div class="bot popout"><img src="./img/alien.jpg" alt=""><p>Did you mean ${data.Question}? ${data.Answer}</p></div>`);
+                }if(analysis < 0.5){
+                    $('.conversations').append(`<div class="bot popout"><img src="./img/alien.jpg" alt=""><p>Sorry, I dont understand you.</p></div>`);
+                }
+
                 $('.bot').css('outline', 'none').attr("tabindex", -1).focus();
-                
+
                 $('#message').focus();
                 $('#message').val("");
             }, 2500);
@@ -158,7 +166,7 @@ const getResponse = (question) => {
         let response = [];
         
         QNA.forEach((data, index) => {
-            const percentage = stringSimilarity.compareTwoStrings(question, data.Question)
+            const percentage = stringSimilarity.compareTwoStrings(question.toLowerCase().replace(/[^\w\s]/gi, ''), data.Question.toLowerCase().replace(/[^\w\s]/gi, ''))
             if(percentage >= threshold){
                 threshold = percentage;
                 response = {"data" : data, "analysis": percentage};
