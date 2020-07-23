@@ -6309,367 +6309,367 @@ const QNA = [
   },
   {
     "Question": "To whom am I speaking?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "Introduction please",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "Introductions",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "So how should I address you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "So how should I refer to you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "So what do you like to be called?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "So what is your name?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "So what should I call you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "So what would you like me to call you",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "Can you introduce yourself",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "So who are you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "How would you like me to call you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What are you called?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What can I address you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What can I call you",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What can I call you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What can I refer to you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What do I call you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What do you go by?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What do you want me to address you as?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What do you want me to address you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "So what's your name?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "How do you want me to address you as?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "Can you tell me how to refer to you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "Can you tell me what I should call you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "Can you tell me what your name is?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "Can you tell me your name?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "Do you have a designation?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "Do you have a name?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "Do you have a title?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "Do you have an official name?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "How can I address you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "Introduce yourself",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "How can I refer to you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "How would you like me to refer to you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "How do you want me to address you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "How do you want me to call you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "How do you want me to refer to you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "how is your name",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "How should I address you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "How should I call you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "How should I refer to you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "How would you like me to address you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What do your friend call you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "How can I call you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What do they call you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What do you want me to call you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What would you say your name is?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "I'd like to know your name",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "I'd like to know what to call you",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "I want to know your name",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "I want to know what to call you",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What is your first name?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What is your last name?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "I'm going to need to know your name",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What name to you like to be called?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "You got a name?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What do you like to be called?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What name do you like to be called?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "I don't know your name.",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "I don't know what to call you.",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "I'm not sure what to call you.",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "I can't figure out what to call you.",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "It's not clear to me what your name is.",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What name do you use?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "Name please",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What name do you like to use?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What name do you go by?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What's your handle?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What name should I use for you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What is your name?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What is your program name?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What should I address you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What should I call you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What should I refer to you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What to people call you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What would you like me to address you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What would you like me to call you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "And your name is?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What's your designation?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What do you want me to refer to you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What's your name?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "Who are you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "Who do you want me to address you as?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "who r u",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "With whom am I chatting?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "With whom am I speaking?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "With whom am I talking?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "Who are you exactly?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What name do you prefer?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What would you like me to refer to you?",
-    "Answer": "Hello, my name is _botName_  you can call me _botNickname_"
+    "Answer": "Hello, my name is _botName_"
   },
   {
     "Question": "What do you think about comic books?",
@@ -39190,5 +39190,17 @@ const QNA = [
   {
     "Question": "I want to know you better",
     "Answer": "I can help you work smarter instead of harder"
+  },
+  {
+    "Question": "Date today?",
+    "Answer": "Today is _datetoday_"
+  },
+  {
+    "Question": "Date now?",
+    "Answer": "Today is _datetoday_"
+  },
+  {
+    "Question": "Time",
+    "Answer": "Its _time_"
   }
-]
+];

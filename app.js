@@ -139,12 +139,15 @@ $(document).ready(function(){
 
         getResponse(message).then(resolve => {
             const {data, analysis} = resolve;
+
+            const answer = renderData(data.Answer)
+
             setTimeout(() => {
                 // console.log(resolve)
                 if(analysis >= 0.7){
-                    $('.conversations').append(`<div class="bot popout"><img src="./img/alien.jpg" alt=""><p>${data.Answer}</p></div>`);
+                    $('.conversations').append(`<div class="bot popout"><img src="./img/alien.jpg" alt=""><p>${answer}</p></div>`);
                 }if(analysis >= 0.5 && analysis < 0.7){
-                    $('.conversations').append(`<div class="bot popout"><img src="./img/alien.jpg" alt=""><p>Did you mean ${data.Question}? ${data.Answer}</p></div>`);
+                    $('.conversations').append(`<div class="bot popout"><img src="./img/alien.jpg" alt=""><p>Did you mean ${data.Question}? ${answer}</p></div>`);
                 }if(analysis < 0.5){
                     $('.conversations').append(`<div class="bot popout"><img src="./img/alien.jpg" alt=""><p>Sorry, I dont understand you.</p></div>`);
                 }
@@ -175,4 +178,29 @@ const getResponse = (question) => {
 
         resolve(response)
     });
+}
+
+const renderData = (response) => {
+    let today = new Date();
+    let dd = String(today.getDate()).padStart(2, '0');
+    let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    let yyyy = today.getFullYear();
+    let message = "";
+    
+    let data = {
+        '_datetoday_' : mm + '/' + dd + '/' + yyyy,
+        '_monthtoday_' : mm,
+        '_yeartoday_' : yyyy,
+        '_time_' : `${today.getHours()}:${today.getMinutes()}:${today.getSeconds()}`,
+        '_botName_' : 'Chatbot 101'
+    };
+    
+    for(key of Object.keys(data)){
+        if(response.search(key) != -1){
+            message = response.replace(key, data[key])
+            break;
+        }
+    }
+    
+    return message
 }

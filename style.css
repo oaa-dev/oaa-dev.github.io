@@ -385,7 +385,8 @@ nav {
 
 .message-box .conversations .bot p, .message-box .conversations .user p{
     margin: 8px;
-    padding: 10px;
+    padding: 8px;
+    font-size: 12px;
     background-color: coral;
     border-radius: 10px;
 }
