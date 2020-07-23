@@ -134,7 +134,7 @@ $(document).ready(function(){
     $('#send').click(function(){
         const message = $('#message').val();
 
-        $('.conversations').append(`<div class="user popout"><img src="./img/alien.jpg" alt=""><p>${message}</p></div>`)
+        $('.conversations').append(`<div class="user popout"><img src="./img/user.png" alt=""><p>${message}</p></div>`)
         $('.user').css('outline', 'none').attr("tabindex", -1).focus();
 
         getResponse(message).then(resolve => {
