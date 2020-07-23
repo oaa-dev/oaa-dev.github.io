@@ -10,6 +10,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.2/css/lightbox.min.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -52,7 +53,6 @@
                         </div>
                     </div>
                 </div>
-
                 
                 <!-- ABOUT -->
                 <div class="row division" data-aos="fade-up" data-aos-duration="2500">
@@ -211,12 +211,36 @@
             </div>
         </div>
     </div>
+
+    <div class="head"></div>
+    <div class="message-box">
+        <div class="header">
+            <img src="./img/alien.jpg" alt="">
+            <div class="user">
+                <h3>Chatbot 101</h3>
+                <p>( Online )</p>
+            </div>
+        </div>
+        <div class="conversations">
+            <div class="bot">
+                <img src="./img/alien.jpg" alt="">
+                <p>Good Day</p>
+            </div>
+        </div>
+        <div class="tools">
+            <input type="text" id="message" >
+            <a href="" id="send"><i class="fa fa-send"></i></a>
+        </div>
+    </div>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.2/js/lightbox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/string-similarity@4.0.1/umd/string-similarity.min.js"></script>
+    <script src="dataset.js"></script>
     <script src="./app.js"></script>
 </body>
 </html>
