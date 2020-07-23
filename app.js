@@ -145,7 +145,7 @@ $(document).ready(function(){
                 
                 $('#message').focus();
                 $('#message').val("");
-            }, 1000);
+            }, 2500);
         }).catch(reject => {
             console.log(reject)
         });
