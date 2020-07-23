@@ -202,5 +202,5 @@ const renderData = (response) => {
         }
     }
     
-    return message
+    return (message) ? message : response;
 }
