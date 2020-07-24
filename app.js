@@ -131,7 +131,7 @@ $(document).ready(function(){
         }
     });   
 
-    $('#send').click(function(){
+    $('#send').on('click', function(){
         const message = $('#message').val();
 
         $('.conversations').append(`<div class="user popout"><img src="./img/user.png" alt=""><p>${message}</p></div>`)
